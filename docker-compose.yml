@@ -56,7 +56,7 @@ services:
     restart: unless-stopped
 
   cadvisor:
-    image: ghcr.io/google/cadvisor:v0.53.0
+    image: gcr.io/cadvisor/cadvisor:v0.55.1
     container_name: cadvisor
     volumes:
       - /:/rootfs:ro
